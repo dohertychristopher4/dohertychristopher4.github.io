@@ -1,17 +1,25 @@
 <script>
-    sessionStorage.redirect = location.href;
+	(function() {
+	  var redirect = sessionStorage.redirect;
+	  delete sessionStorage.redirect;
+	  if (redirect && redirect != location.href) {
+		history.replaceState(null, null, redirect);
+	  }
+	})();
 </script>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
 
-	<title>Page Not Found</title>
-	<div>Page Not Found</div>
+	<title>Christopher Doherty's CV</title>
 
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
 </head>
 
 <body>
