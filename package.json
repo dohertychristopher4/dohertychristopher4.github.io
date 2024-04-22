@@ -1,23 +1,21 @@
 {
-	"name": "cv2",
+	"name": "cv",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"preview": "svelte-kit preview",
-		"deploy": "gh-pages -d build -t true"
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"deploy": "gh-pages -d build -t true -r https://github.com/dohertychristopher4/dohertychristopher4.github.io"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/kit": "^2.5.7",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"gh-pages": "^6.1.1",
 		"svelte": "^4.2.7",
+		"svelte-preprocess": "^5.1.4",
 		"vite": "^5.0.3"
 	},
-	"type": "module",
-	"dependencies": {
-		"@sveltejs/adapter-static": "^3.0.1"
-	}
+	"type": "module"
 }

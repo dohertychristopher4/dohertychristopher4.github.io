@@ -1,5 +1,7 @@
-import adapter from '@sveltejs/adapter-auto';
-import { preprocess } from 'svelte/compiler';
+import adapter from '@sveltejs/adapter-static';
+import sveltePreprocess from 'svelte-preprocess';
+
+const preprocess = sveltePreprocess();
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,14 +13,9 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		}),
-		paths: {
-            base: '/dohertychristopher4.github.io'
-		}
+		})
 	},
-	{
-		preprocess: preprocess()
-	}
+	preprocess: preprocess
 };
 
 export default config;
