@@ -7,16 +7,16 @@
 		
 		<link href="./_app/immutable/assets/8.BqMV0m7g.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/10.DV1bNRDK.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.BJngx9t1.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BaT-IPS8.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CbAFH6Fi.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DKq0juz1.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.OG9kUcL4.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.D1Gml9jI.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.CWSzP4s1.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CuQmc2sW.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.DdQJlOfU.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.BJjXTWzw.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.vrvr5SF-.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/each.D6YF6ztN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/stores.BAe2n-60.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.BWpGZsl9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.CHGTNgs_.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/8.D98hrAuu.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/2.BRyK8veQ.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/4.BszCVbs-.js">
@@ -30,7 +30,7 @@
 			
 			<script>
 				{
-					__sveltekit_laz53s = {
+					__sveltekit_ejdf3o = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
@@ -39,8 +39,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.BJngx9t1.js"),
-						import("./_app/immutable/entry/app.CWSzP4s1.js")
+						import("./_app/immutable/entry/start.CbAFH6Fi.js"),
+						import("./_app/immutable/entry/app.CuQmc2sW.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3],
@@ -185,5 +185,91 @@ a:hover .icon {
 .years .tech-used {
   font-weight: bold;
   color: #777;
+}
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    /* Adjust the layout for mobile */
+    body {
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.2;
+      color: #e0e0e0;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu */
+    }
+
+    .desktop-menu {
+        display: none; /* Hide desktop menu */
+    }
+
+    .profile-picture {
+        width: 120px; /* Adjust the size as needed */
+        height: auto;
+        margin: 20px auto; /* Center the profile picture */
+    }
+
+    .main-content {
+        padding: 15px;
+        text-align: center; /* Center the text for mobile */
+    }
+
+    .name-title {
+        font-size: 20px; /* Adjust the size as needed */
+        margin-top: 5px;
+    }
+
+    .about-section {
+        margin-top: 20px;
+    }
+
+    .about-heading {
+        font-size: 18px; /* Adjust the size as needed */
+    }
+
+    .about-text {
+        font-size: 16px; /* Adjust the size as needed */
+        line-height: 1.4;
+    }
+
+    .bottom-navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 5px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333; /* Match your color scheme */
+    }
+
+    .bottom-navbar .icon {
+        display: block;
+        width: 25px; /* Adjust the size as needed */
+        height: 25px; /* Adjust the size as needed */
+    }
+    
+    /* Simplify the background for mobile */
+    .background {
+        background: none;
+    }
+}
+
+/* You might need to make further adjustments for different mobile devices */
+@media (max-width: 480px) {
+    /* Additional styles for smaller mobile devices */
 }
 </style>
