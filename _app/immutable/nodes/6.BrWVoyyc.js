@@ -1,4 +1,4 @@
-import{s as I,n as q}from"../chunks/scheduler.Cs0xm5t1.js";import{S as L,i as V,e as m,t as v,s as w,c as d,a as u,b as g,d as h,f as D,k as Y,l as O,g as z,h as t,j as F}from"../chunks/index.P-NFKvyc.js";function B(i){let e,a,n,c,r,p=i[0].email+"",E,x,P,o,S,_=i[0].name+"",C,b,k,f,T=`footer {\r
+import{s as I,n as q}from"../chunks/scheduler.OG9kUcL4.js";import{S as L,i as V,e as m,t as v,s as w,c as d,a as u,b as g,d as h,f as D,k as Y,l as O,g as z,h as t,j as F}from"../chunks/index.DdQJlOfU.js";function B(i){let e,a,n,c,r,p=i[0].email+"",E,x,P,o,S,_=i[0].name+"",C,b,k,f,T=`footer {\r
         padding: 20px;\r
         background-color: #333;\r
         color: white;\r
