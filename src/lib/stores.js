@@ -4,6 +4,7 @@ export const cvData = readable(null, (set) =>{
     set({
         "personalDetails": {
           "name": "Christopher Doherty",
+          "displayName": "Christy Doherty",
           "address": "Lower Trenbane, Carndonagh, Co. Donegal, Ireland, F93XTE2",
           "telephone": "+353876529700",
           "email": "dohertychristopher4@gmail.com",
@@ -45,11 +46,11 @@ export const cvData = readable(null, (set) =>{
           "Competent with Windows, Linux, Raspbian, and virtual machines (Oracle VM Virtual Box)"
         ],
         "projects": [
-          {
-            "name": "Nightscout (CGM in the Cloud)",
-            "description": "Created a wireless bridge and a personalized app to enable real-time glucose monitoring for a type 1 diabetic.",
-            "status": "Ongoing open source project"
-          },
+          // {
+          //   "name": "Nightscout (CGM in the Cloud)",
+          //   "description": "Created a wireless bridge and a personalized app to enable real-time glucose monitoring for a type 1 diabetic.",
+          //   "status": "Ongoing open source project"
+          // },
           {
             "name": "Head Count",
             "description": "Developed a people counting system using OpenCV and Python, with real-time data accessible via a website.",
@@ -58,12 +59,14 @@ export const cvData = readable(null, (set) =>{
           {
             "name": "Tabby",
             "description": "Published a chrome extension which allows user to add their own categories and links",
-            "technologiesUsed": ["Javascript", "HTML", "CSS"]
+            "technologiesUsed": ["Javascript", "HTML", "CSS"],
+            "website": "https://chromewebstore.google.com/detail/tabby/jhhpfcdhkefljpbmfoneemmjjfodfdbh"
           },
           {
             "name": "CV website",
             "description": "This Website",
-            "technologiesUsed": ["Svelte", "GitHub Pages"]
+            "technologiesUsed": ["Svelte", "GitHub Pages"],
+            "website": "https://dohertychristopher4.github.io/"
           }
         ],
         "interests": [

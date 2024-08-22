@@ -29,19 +29,32 @@
       activeComponent = About;
     }
   }
+
+  let activeLink = '/';
+  function setActive(linkUrl) {
+    console.log(linkUrl, activeLink)
+    activeLink = linkUrl;
+  }
 </script>
 
 <div class="app">
   <nav class="sidebar-nav">
+    <div class="nav-link-top">
+      <img src="svgs/letter-c.svg" alt='about'/>
+      <img src="svgs/letter-d.svg" alt='about'/>
+    </div>
     <!-- 👤 🎓 💼 💡 📁 -->
-    <a href='/' class="nav-link">
+    <a href='/' class="nav-link" class:active="{activeLink === '/'}" on:click="{() => setActive('/')}">
       <img src="svgs/about.svg" alt='about'/>
     </a>
     {#each routes as route}
-    <a href={route} class="nav-link">
+    <a href={route} class="nav-link" class:active="{activeLink === '/'+route}" on:click="{() => setActive('/'+route)}">
       <img src="svgs/{route}.svg" alt={route}/>
     </a>
     {/each}
+    <button on:click={() => window.location.href = '/docs/cv.docx'} class="nav-link-bottom">
+        <img src="svgs/download.svg" alt='download'/>
+    </button>
   </nav>
   <div>
     {#if $cvData}

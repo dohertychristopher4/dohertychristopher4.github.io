@@ -5,8 +5,8 @@
 <div class="card-container">
   <h1>Contact Me</h1>
   <div class="card">
-    <p>Email: {$cvData.personalDetails.email}</p>
-    <p>Phone: {$cvData.personalDetails.telephone}</p>
-    <p>Address: {$cvData.personalDetails.address}</p>
+    <p><span>Email:</span> {$cvData.personalDetails.email}</p>
+    <p><span>Phone:</span> {$cvData.personalDetails.telephone}</p>
+    <p><span>Address:</span> {$cvData.personalDetails.address}</p>
   </div>
 </div>

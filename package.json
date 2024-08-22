@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"start": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"deploy": "gh-pages -d build -t true -r https://github.com/dohertychristopher4/dohertychristopher4.github.io"

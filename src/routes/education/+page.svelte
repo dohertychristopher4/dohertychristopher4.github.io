@@ -5,10 +5,9 @@
 <div class="card-container">
   <h1>Education</h1>
   <div class="card">
-    <h2>{$cvData.education.degree}</h2>
-    <p>{$cvData.education.fieldOfStudy}</p>
+    <h2>{$cvData.education.degree} in {$cvData.education.fieldOfStudy}</h2>
     <p>{$cvData.education.institution}</p>
     <p class="years">{$cvData.education.yearsAttended}</p>
-    <p>Grade: {$cvData.education.grade}</p>
+    <p><span>Grade:</span> {$cvData.education.grade}</p>
   </div>
 </div>
