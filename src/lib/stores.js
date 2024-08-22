@@ -22,7 +22,7 @@ export const cvData = readable(null, (set) =>{
         },
         "employmentHistory": [
           {
-            "dates": "03/01/2019 - Present",
+            "dates": "03/01/2019 - 19/07/2024",
             "organization": "Druva Inc.",
             "position": "Software Developer",
             "contactPerson": "Owen O’Donnell"
