@@ -1,4 +1,4 @@
-import{s as Q,a as q,n as z,c as U}from"../chunks/scheduler.OG9kUcL4.js";import{S as W,i as X,e as a,s as x,t as F,c as i,a as m,f as L,b as J,d as g,k as Y,l as e,g as Z,h as t,j as K}from"../chunks/index.cNwEqVHJ.js";import{c as ee}from"../chunks/stores.CW3Hbc-6.js";function te(f){let s,l,k,E,r,_,y=f[0].personalDetails.displayName+"",C,S,p,D=f[0].personalDetails.position+"",G,V,d,c,v,A,H,$,u,h,B,M,j,b,N=`document.addEventListener('DOMContentLoaded', function () {\r
+import{s as Q,a as q,n as z,c as U}from"../chunks/scheduler.OG9kUcL4.js";import{S as W,i as X,e as a,s as x,t as F,c as i,a as m,f as L,b as J,d as g,k as Y,l as e,g as Z,h as t,j as K}from"../chunks/index.cNwEqVHJ.js";import{c as ee}from"../chunks/stores.DJs7k-lt.js";function te(f){let s,l,k,E,r,_,y=f[0].personalDetails.displayName+"",C,S,p,D=f[0].personalDetails.position+"",G,V,d,c,v,A,H,$,u,h,B,M,j,b,N=`document.addEventListener('DOMContentLoaded', function () {\r
       const githubIcon = document.getElementById('githubIcon');\r
       const linkedinIcon = document.getElementById('linkedinIcon');\r
       if(githubIcon && linkedinIcon) {\r
